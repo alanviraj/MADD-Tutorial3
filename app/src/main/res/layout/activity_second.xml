@@ -7,26 +7,26 @@
     tools:context=".SecondActivity">
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textView3x"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/txt1"
+        android:text="@string/text1"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/num1_2"
+        app:layout_constraintEnd_toStartOf="@+id/num1_x2"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintStart_toEndOf="@+id/textView4x"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.125" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textView4x"
         android:layout_width="107dp"
         android:layout_height="38dp"
         android:layout_marginStart="32dp"
-        android:text="@string/txt2"
+        android:text="@string/text2"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -34,7 +34,7 @@
         app:layout_constraintVertical_bias="0.207" />
 
     <EditText
-        android:id="@+id/num1_2"
+        android:id="@+id/num1_x2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -47,7 +47,7 @@
         app:layout_constraintVertical_bias="0.107" />
 
     <EditText
-        android:id="@+id/num2_2"
+        android:id="@+id/num2_x2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -60,7 +60,7 @@
         app:layout_constraintVertical_bias="0.199" />
 
     <Button
-        android:id="@+id/btn_add"
+        android:id="@+id/add_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="+"
@@ -72,7 +72,7 @@
         app:layout_constraintVertical_bias="0.478" />
 
     <Button
-        android:id="@+id/btn_sub"
+        android:id="@+id/sub_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="-"
@@ -84,7 +84,7 @@
         app:layout_constraintVertical_bias="0.478" />
 
     <Button
-        android:id="@+id/btn_div"
+        android:id="@+id/div_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="/"
@@ -96,7 +96,7 @@
         app:layout_constraintVertical_bias="0.639" />
 
     <Button
-        android:id="@+id/btn_mul"
+        android:id="@+id/mul_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="*"
@@ -108,7 +108,7 @@
         app:layout_constraintVertical_bias="0.639" />
 
     <TextView
-        android:id="@+id/txt_result"
+        android:id="@+id/final_result"
         android:layout_width="168dp"
         android:layout_height="29dp"
         android:textAlignment="center"
