@@ -26,16 +26,16 @@ public class SecondActivity extends AppCompatActivity {
             n1 = i.getStringExtra("EXTRA_1");
             n2 = i.getStringExtra("EXTRA_2");
 
-            TextView tv1 = findViewById(R.id.num1_2);
+            TextView tv1 = findViewById(R.id.num1_x2);
             tv1.setText(n1);
-            TextView tv2 = findViewById(R.id.num2_2);
+            TextView tv2 = findViewById(R.id.num2_x2);
             tv2.setText(n2);
 
 
-            Button btn = findViewById(R.id.btn_add);
-            Button btn1 = findViewById(R.id.btn_sub);
-            Button btn2 = findViewById(R.id.btn_mul);
-            Button btn3 = findViewById(R.id.btn_div);
+            Button btn = findViewById(R.id.add_btn);
+            Button btn1 = findViewById(R.id.sub_btn);
+            Button btn2 = findViewById(R.id.mul_btn);
+            Button btn3 = findViewById(R.id.div_btn);
 
             //set the edit text to the numbers received
 
@@ -45,8 +45,8 @@ public class SecondActivity extends AppCompatActivity {
 
                     //retrieve the value from edit text
 
-                    EditText out1 = findViewById(R.id.num1_2);
-                    EditText out2 = findViewById(R.id.num2_2);
+                    EditText out1 = findViewById(R.id.num1_x2);
+                    EditText out2 = findViewById(R.id.num2_x2);
 
                     String val1 = out1.getText().toString();
                     String val2 = out2.getText().toString();
@@ -59,7 +59,7 @@ public class SecondActivity extends AppCompatActivity {
 
                     result = val1+ "+" + val2 + "=" + value ;
 
-                    TextView tv = findViewById(R.id.txt_result);
+                    TextView tv = findViewById(R.id.final_result);
                     tv.setText(result);
 
                 }
@@ -69,8 +69,8 @@ public class SecondActivity extends AppCompatActivity {
                 @Override
                 public void onClick(View view) {
 
-                    EditText out1 = findViewById(R.id.num1_2);
-                    EditText out2 = findViewById(R.id.num2_2);
+                    EditText out1 = findViewById(R.id.num1_x2);
+                    EditText out2 = findViewById(R.id.num2_x2);
 
                     String val1 = out1.getText().toString();
                     String val2 = out2.getText().toString();
@@ -82,7 +82,7 @@ public class SecondActivity extends AppCompatActivity {
 
                     result = val1+ "-" + val2+ "=" + value ;
 
-                    TextView tv = findViewById(R.id.txt_result);
+                    TextView tv = findViewById(R.id.final_result);
                     tv.setText(result);
 
                 }
@@ -92,8 +92,8 @@ public class SecondActivity extends AppCompatActivity {
                 @Override
                 public void onClick(View view) {
 
-                    EditText out1 = findViewById(R.id.num1_2);
-                    EditText out2 = findViewById(R.id.num2_2);
+                    EditText out1 = findViewById(R.id.num1_x2);
+                    EditText out2 = findViewById(R.id.num2_x2);
 
                     String val1 = out1.getText().toString();
                     String val2 = out2.getText().toString();
@@ -105,7 +105,7 @@ public class SecondActivity extends AppCompatActivity {
 
                     result = val1+ "*" + val2 + "=" + value ;
 
-                    TextView tv = findViewById(R.id.txt_result);
+                    TextView tv = findViewById(R.id.final_result);
                     tv.setText(result);
 
                 }
@@ -116,8 +116,8 @@ public class SecondActivity extends AppCompatActivity {
                 @Override
                 public void onClick(View view) {
 
-                    EditText out1 = findViewById(R.id.num1_2);
-                    EditText out2 = findViewById(R.id.num2_2);
+                    EditText out1 = findViewById(R.id.num1_x2);
+                    EditText out2 = findViewById(R.id.num2_x2);
 
                     String val1 = out1.getText().toString();
                     String val2 = out2.getText().toString();
@@ -129,7 +129,7 @@ public class SecondActivity extends AppCompatActivity {
 
                     result = val1+ "/" + val2 + "=" + value ;
 
-                    TextView tv = findViewById(R.id.txt_result);
+                    TextView tv = findViewById(R.id.final_result);
                     tv.setText(result);
                 }
             });
