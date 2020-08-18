@@ -14,8 +14,8 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    EditText etn1,etn2 ;
-    Button btn;
+    EditText et1,et2 ;
+    Button btnk;
 
 
     @Override
@@ -23,12 +23,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        etn1 = findViewById(R.id.num1);
-        etn2 = findViewById(R.id.num2);
-        btn = findViewById(R.id.btn_ok);
+        et1 = findViewById(R.id.num1x);
+        et2 = findViewById(R.id.num2x);
+        btnk = findViewById(R.id.btnx_ok);
 
 
-        btn.setOnClickListener(new View.OnClickListener() {
+        btnk.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
@@ -52,8 +52,8 @@ public class MainActivity extends AppCompatActivity {
                 toast.show();
 
 
-                String n1 = etn1.getText().toString();
-                String n2 = etn2.getText().toString();
+                String n1 = et1.getText().toString();
+                String n2 = et2.getText().toString();
 
                 Intent i = new Intent(MainActivity.this , SecondActivity.class);
 
