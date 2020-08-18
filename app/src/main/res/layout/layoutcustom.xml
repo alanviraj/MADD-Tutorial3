@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/custom_toast_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3F51B5"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+        app:srcCompat="@drawable/msg_send" />
+
+    <TextView
+        android:id="@+id/custom_toast_message"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:contentDescription="To"
+        android:fontFamily="casual"
+        android:gravity="center_vertical"
+        android:text="JavaTpoint custom Toast"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+
+</LinearLayout>
